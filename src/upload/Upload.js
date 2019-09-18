@@ -119,9 +119,7 @@ class Upload extends Component {
             {...global.dataLayer.push({'event': 'btn_event',
                           'formLocation': 'limpar'})}
           }
-        >
-          Limpar
-        </button>
+        >Limpar </button>
       );
     } else {
       return (
