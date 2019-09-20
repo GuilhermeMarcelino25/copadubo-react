@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/copadubo-react/static/css/main.ebd07c9d.chunk.css",
-    "main.js": "/copadubo-react/static/js/main.2a6e5735.chunk.js",
-    "main.js.map": "/copadubo-react/static/js/main.2a6e5735.chunk.js.map",
+    "main.js": "/copadubo-react/static/js/main.4f68c4dd.chunk.js",
+    "main.js.map": "/copadubo-react/static/js/main.4f68c4dd.chunk.js.map",
     "runtime~main.js": "/copadubo-react/static/js/runtime~main.89ccb127.js",
     "runtime~main.js.map": "/copadubo-react/static/js/runtime~main.89ccb127.js.map",
     "static/js/2.b988fb5b.chunk.js": "/copadubo-react/static/js/2.b988fb5b.chunk.js",
     "static/js/2.b988fb5b.chunk.js.map": "/copadubo-react/static/js/2.b988fb5b.chunk.js.map",
     "index.html": "/copadubo-react/index.html",
-    "precache-manifest.18a78638926089cb4905f7a119ecf6dd.js": "/copadubo-react/precache-manifest.18a78638926089cb4905f7a119ecf6dd.js",
+    "precache-manifest.759ad71e25b1da220f31a29dadbb004b.js": "/copadubo-react/precache-manifest.759ad71e25b1da220f31a29dadbb004b.js",
     "service-worker.js": "/copadubo-react/service-worker.js",
     "static/css/main.ebd07c9d.chunk.css.map": "/copadubo-react/static/css/main.ebd07c9d.chunk.css.map"
   }
