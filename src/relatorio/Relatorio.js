@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import "./Relatorio.css";
 
 class Relatorio extends Component {
 
 
 render() {
   return (
-    <div>Relatorio</div>
+    <div className="App">Relatorio</div>
   );
 }
 }

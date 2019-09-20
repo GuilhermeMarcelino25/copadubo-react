@@ -28,6 +28,12 @@ class Upload extends Component {
   async uploadFiles() {
     global.dataLayer.push({'event': 'btn_event',
                           'formLocation': document.getElementById("carregar").id});
+
+
+    if(this.state.files.length === 0){
+      alert("Nenhum arquivo carregado.");
+     return false;
+    }                          
     this.setState({ uploadProgress: {}, uploading: true });
     const promises = [];
     this.state.files.forEach(file => {
@@ -80,7 +86,7 @@ class Upload extends Component {
 	  
 	  req.onreadystatechange = function() { // Chama a função quando o estado mudar.
     if (this.readyState === XMLHttpRequest.DONE) {
-      alert(req.status === 200 ? "Arquivo carregado com sucesso!" : "Falha ao carregar arquivo");
+      alert(req.status === 200 ? "Arquivo carregado com sucesso!" : "Falha ao carregar arquivo ");
 	  }}
 	  
 
@@ -114,22 +120,14 @@ class Upload extends Component {
           id ="limpar"
           data-type-name='Limpar'
           onClick={() =>
-            this.setState({ files: [], successfullUploaded: false }),
-            
-            {...global.dataLayer.push({'event': 'btn_event',
-                          'formLocation': 'limpar'})}
-          }
-        >Limpar </button>
+            this.setState({ files: [], successfullUploaded: false })}>Limpar</button>
       );
     } else {
       return (
         <button
           id ="carregar"
           disabled={this.state.files.length < 0 || this.state.uploading}
-          onClick={this.uploadFiles} 
-        >
-          Carregar
-        </button>
+          onClick={this.uploadFiles} >Carregar</button>
       );
     }
   }
