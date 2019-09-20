@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9303da0233821168be09f3cfaaacfa13",
+    "revision": "dff23bf5a47a0bd2eeaf50ff13a6a677",
     "url": "/copadubo-react/index.html"
   },
   {
-    "revision": "6ad6cfc0e72b96d43d14",
+    "revision": "cee8301e00f6a1098f62",
     "url": "/copadubo-react/static/css/main.31bcb2a9.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/copadubo-react/static/js/2.b988fb5b.chunk.js"
   },
   {
-    "revision": "6ad6cfc0e72b96d43d14",
-    "url": "/copadubo-react/static/js/main.d5317801.chunk.js"
+    "revision": "cee8301e00f6a1098f62",
+    "url": "/copadubo-react/static/js/main.4d910047.chunk.js"
   },
   {
     "revision": "b03c32d58312f69720de",
