@@ -3,5 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 ### Para funcionar no Github Pages, foi preciso alterar o roteamento de react-router para react-router-dom e utilizar o BrowserRouter no lugar de Router.
-realizar o npm run build
-realizar o npm run deploy.
+
+
+Realizar o npm run build.
+
+Realizar o npm run deploy.
