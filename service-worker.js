@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/copadubo-react/precache-manifest.53a3a3dab7759c9165512830e6b85e3d.js"
+  "/copadubo-react/precache-manifest.759ad71e25b1da220f31a29dadbb004b.js"
 );
 
 self.addEventListener('message', (event) => {
